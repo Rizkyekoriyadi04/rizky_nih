@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">rizky nih</string>
+    <string name="pindah_eko1" />
+    <string name="pindah_eko2" />
+    <string name="pindah_eko3" />
+    <string name="pindah_eko4" />
+    <string name="pindah_eko5" />
+    <string name="pindah_eko6" />
 </resources>

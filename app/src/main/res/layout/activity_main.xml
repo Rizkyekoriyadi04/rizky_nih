@@ -10,7 +10,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="KEBUN BINATANG"
+        android:text="ZOO"
         android:textSize="40sp"
         android:textStyle="bold"
         android:textColor="@color/white"
@@ -40,10 +40,12 @@
                 android:orientation="vertical"
                 android:layout_gravity = "center_horizontal|center_vertical">
                 <ImageView
+                    android:id="@+id/iv_chicken"
                     android:layout_width="90dp"
                     android:layout_height="90dp"
                     android:layout_gravity = "center_horizontal|center_vertical"
-                    android:src="@drawable/chicken">
+                    android:src="@drawable/chicken"
+                    android:text="@string/pindah_eko1">
                 </ImageView>
                 <TextView
                     android:layout_width="wrap_content"
@@ -73,10 +75,12 @@
                 android:orientation="vertical"
                 android:layout_gravity = "center_horizontal|center_vertical">
                 <ImageView
+                    android:id="@+id/iv_crocodile"
                     android:layout_width="90dp"
                     android:layout_height="90dp"
                     android:layout_gravity = "center_horizontal|center_vertical"
-                    android:src="@drawable/crocodile">
+                    android:src="@drawable/crocodile"
+                    android:text="@string/pindah_eko2">
                 </ImageView>
                 <TextView
                     android:layout_width="wrap_content"
@@ -106,10 +110,12 @@
                 android:orientation="vertical"
                 android:layout_gravity = "center_horizontal|center_vertical">
                 <ImageView
+                    android:id="@+id/iv_frog"
                     android:layout_width="90dp"
                     android:layout_height="90dp"
                     android:layout_gravity = "center_horizontal|center_vertical"
-                    android:src="@drawable/frog">
+                    android:src="@drawable/frog"
+                    android:text="@string/pindah_eko3">
                 </ImageView>
                 <TextView
                     android:layout_width="wrap_content"
@@ -139,10 +145,12 @@
                 android:orientation="vertical"
                 android:layout_gravity = "center_horizontal|center_vertical">
                 <ImageView
+                    android:id="@+id/iv_hippo"
                     android:layout_width="95dp"
                     android:layout_height="95dp"
                     android:layout_gravity = "center_horizontal|center_vertical"
-                    android:src="@drawable/hippo">
+                    android:src="@drawable/hippo"
+                    android:text="@string/pindah_eko4">
                 </ImageView>
                 <TextView
                     android:layout_width="wrap_content"
@@ -172,10 +180,12 @@
                 android:orientation="vertical"
                 android:layout_gravity = "center_horizontal|center_vertical">
                 <ImageView
+                    android:id="@+id/iv_lion"
                     android:layout_width="90dp"
                     android:layout_height="90dp"
                     android:layout_gravity = "center_horizontal|center_vertical"
-                    android:src="@drawable/lion">
+                    android:src="@drawable/lion"
+                    android:text="@string/pindah_eko5">
                 </ImageView>
                 <TextView
                     android:layout_width="wrap_content"
@@ -205,10 +215,12 @@
                 android:orientation="vertical"
                 android:layout_gravity = "center_horizontal|center_vertical">
                 <ImageView
+                    android:id="@+id/iv_owl"
                     android:layout_width="90dp"
                     android:layout_height="90dp"
                     android:layout_gravity = "center_horizontal|center_vertical"
-                    android:src="@drawable/owl">
+                    android:src="@drawable/owl"
+                    android:text="@string/pindah_eko6">
                 </ImageView>
                 <TextView
                     android:layout_width="wrap_content"

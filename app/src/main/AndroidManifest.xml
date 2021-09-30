@@ -10,6 +10,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.RizkyNih">
         <activity
+            android:name=".eko6"
+            android:exported="true" />
+        <activity
+            android:name=".eko5"
+            android:exported="true" />
+        <activity
+            android:name=".eko4"
+            android:exported="true" />
+        <activity
+            android:name=".eko3"
+            android:exported="true" />
+        <activity
+            android:name=".eko2"
+            android:exported="true" />
+        <activity
+            android:name=".eko1"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
